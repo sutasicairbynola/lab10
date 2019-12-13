@@ -1,0 +1,14 @@
+#!/usr/bin/python3
+
+userList = input()
+intList = []
+sum = 0
+avg = 0
+count = 0
+    for i in userList:
+	    intList.append(i)
+    for y in intList:
+	    sum = sum + y
+        count +=1
+    avg = sum/count
+    print(avg)
