@@ -1,14 +1,12 @@
 #!/usr/bin/python3
 
+
 userList = list(map(int, input().split()))
-intList = []
-sum = 0
+total = 0
 avg = 0
 count = 0
     for i in userList:
-	    intList.append(i)
-    for y in intList:
-	    sum = sum + y
+	    total = total + i
         count +=1
-    avg = sum/count
+    avg = total/count
     print(avg)
