@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-userList = int(input())
+userList = list(map(int, input().split()))
 intList = []
 sum = 0
 avg = 0
