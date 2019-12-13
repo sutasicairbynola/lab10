@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 
-
-userList = list(map(int, input().split()))
-total = 0
-avg = 0
-count = 0
+def avgOfNums():
+    userList = list(map(int, input().split()))
+    total=avg=count= 0
     for i in userList:
-	    total = total + i
-        count +=1
+        total += i
+        count += 1
     avg = total/count
     print(avg)
+
+avgOfNums()
